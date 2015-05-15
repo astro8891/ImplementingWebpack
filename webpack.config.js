@@ -28,7 +28,18 @@
 
  if(TARGET === 'dev') {
  module.exports = mergeConfig({
-
- entry: ['webpack/hot/dev-server']
+ entry: ['webpack/hot/dev-server'],
+ module: {
+ preLoaders: [
+ {
+ test: /\.jsx?$/,
+ // we are using `eslint-loader` explicitly since
+ // we have eslint module installed. This way we
+ // can be certain that it uses the right loader
+ loader: 'eslint-loader',
+ include: path.join(ROOT_PATH, 'app'),
+ }
+ ],
+ },
  });
  }
