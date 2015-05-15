@@ -4,8 +4,8 @@
   "description": "Web pack Implementation pre React site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build": "webpack"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/astro8891/ImplementingWebpack.git"
