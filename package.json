@@ -1,0 +1,19 @@
+{
+  "name": "implimentingwebpack",
+  "version": "1.0.0",
+  "description": "Web pack Implementation pre React site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astro8891/ImplementingWebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astro8891/ImplementingWebpack/issues"
+  },
+  "homepage": "https://github.com/astro8891/ImplementingWebpack#readme"
+}
